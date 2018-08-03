@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+*,*:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+li a{
+  color: #9B9893;
+  font-weight: 100;
+  letter-spacing: 2px;
+  background:white;
+  padding: 20px 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s;
+}
+.wrapper {
+  border-bottom: 1px solid #DDDDDD;
+}
+.flex-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 70px;
+  display: flex;
+}
+.flex-nav li {
+  flex-grow: 1;
+}
+.flex-nav input[type=button]{
+  width: 80%;
+  color: white;
+  padding: 2px;
+  background: #7EBB42;
+  font-weight: 100;
+}
+.btnX {
+  padding-bottom: 16px;
+}
+.First {
+  border-right: 1px solid #DDDDDD;
+}
+.First h2 {
+  color: #7EBB42;
+}
+.Second {
+  border-right: 1px solid #DDDDDD;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #77736D;
+  font-family: 'Roboto', sans-serif;
+}
+.Third {
+  padding-top: 24px;
+  font-size: 15px;
+  color: #77736D;
+}
+.x {
+  margin-left: 200px;
+}
+.x a {
+  padding-top: 22px;
+  font-size: 15px;
+  color: #7EBB42;
+  font-family: 'Roboto', sans-serif;
+}
+.Fourth{
+  padding-top: 28px;
+}
